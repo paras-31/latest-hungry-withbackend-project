@@ -1,0 +1,48 @@
+{
+    "name": "Hungry",
+    "short_name": "HUNGRY",
+    "theme_color": "#b0a8b0",
+    "background_color": "#fc283f",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "id":"/",
+    "icons": [
+      {
+        "src":"logo192.png",
+        "size":"192x192",
+        "type":"image/png",
+        "purpose":"any maskable"
+      },
+      {
+        "src": "64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src":"24.png",
+        "sizes": "24x24",
+        "type": "image/png"
+      },
+      {
+        "src": "16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+}

@@ -1,0 +1,76 @@
+.button {
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 1em 0.7em 1em 0.7em;
+  width: 62%;
+  border: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (min-width: 280px) {
+  .button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 358px) {
+  .button {
+    width: 96%;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .button {
+    width: 94%;
+  }
+}
+
+@media screen and (min-width: 394px) {
+  .button {
+    width: 91%;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .button {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 432px) {
+  .button {
+    width: 82%;
+  }
+}
+
+@media screen and (min-width: 468px) {
+  .button {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .button {
+    width: 74%;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .button {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 548px) {
+  .button {
+    width: 62%;
+  }
+}

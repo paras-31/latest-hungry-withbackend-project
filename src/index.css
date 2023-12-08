@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+  height: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track-piece  {
+  background-color: #eeeeee;
+  border-radius: 12px;
+  -webkit-border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 10px;
+  background-color: rgb(145, 143, 143);
+  border: 1px solid #eee;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 243, 243);
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+*,
+body {
+  font-family: Mulish, Helvetica, Arial, sans-serif;
+}
+/* rupee symbol */
+.rupee::before {
+  content: "\20b9";
+  margin-right: 2px;
+}
+
+.root_button {
+  background-image: linear-gradient(90deg, #ff5567, #fc283f);
+}
+
+.home_button {
+  background-color: #ff5567;
+}
+
+.disable_button {
+  background-color: rgb(179, 179, 179);
+  appearance: none;
+  cursor: not-allowed;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 1em 0.7em 1em 0.7em;
+  width: 62%;
+  border: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+/* width */
+.col-12-12 {
+  width: 100%;
+}
+
+.col-6-12 {
+  width: 50%;
+}
+
+.col-9-12 {
+  width: 75%;
+}
+
+.col-4-12 {
+  width: 33.33%;
+}
+
+.col-3-12 {
+  width: 25%;
+}
+
+/* flex */
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-center {
+  display: flex;
+  align-items: center;
+}
+
+.item-center-hr {
+  display: flex;
+  justify-content: center;
+}
+
+/* width */
+.width-100 {
+  width: 100%;
+}
+
+/* text color */
+.text_white {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* letter spacing */
+
+.tracking_tighter {
+  letter-spacing: -0.05em;
+}
+.tracking_tight {
+  letter-spacing: -0.025em;
+}
+.tracking_normal {
+  letter-spacing: 0em;
+}
+.tracking_wide {
+  letter-spacing: 0.025em;
+}
+.tracking_wider {
+  letter-spacing: 0.05em;
+}
+.tracking_widest {
+  letter-spacing: 0.1em;
+}
+
+/* align self */
+.self_center {
+  align-self: center;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+/* padding */
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pt-16 {
+  padding-top: 16px !important;
+}
+
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.pb-200 {
+  padding-bottom: 200px !important;
+}
+
+.pb-24 {
+  padding-bottom: 24px !important;
+}
+
+.py-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* margin */
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+@media screen and (min-width: 280px) {
+  .disable_button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 358px) {
+  .disable_button {
+    width: 96%;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .disable_button {
+    width: 94%;
+  }
+}
+
+@media screen and (min-width: 394px) {
+  .disable_button {
+    width: 91%;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .disable_button {
+    width: 86%;
+  }
+}
+
+@media screen and (min-width: 432px) {
+  .disable_button {
+    width: 82%;
+  }
+}
+
+@media screen and (min-width: 468px) {
+  .disable_button {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .disable_button {
+    width: 74%;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .disable_button {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 548px) {
+  .disable_button {
+    width: 62%;
+  }
+}
