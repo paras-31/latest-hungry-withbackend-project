@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "homepage": "/",
   "private": true,
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
   "dependencies": {
     "@emotion/styled": "^11.3.0",
     "@mui/material": "^5.0.1",
